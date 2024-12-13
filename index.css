@@ -1,0 +1,33 @@
+.survol {
+    background-color: orange;
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-dereoulant {
+    cursor: pointer;
+}
+
+.cache {
+    display: none;
+    margin-top: 8px;
+}
+
+.cache a {
+    background-color: orange;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.cache a:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+.menu-dereoulant:hover .cache {
+    display: block;
+}
